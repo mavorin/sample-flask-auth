@@ -1,2 +1,2 @@
 # sample-flask-auth
-More one Rocketseat exercise, a sample authentication API using Flask.
+Repositório criado para armazenar o código da API de autenticação com banco de dados.

@@ -17,7 +17,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"username\": \"admin\",\n    \"password\": \"admin123\"\n}",
+          "raw": "{\n    \"username\": \"gabriel_crypt\",\n    \"password\": \"1235\"\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -46,7 +46,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"username\": \"gabriel2\",\n    \"password\": \"admin\"\n}",
+          "raw": "{\n    \"username\": \"gabriel_crypt\",\n    \"password\": \"1234\"\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -88,6 +88,9 @@
     {
       "name": "GET User by ID",
       "request": {
+        "auth": {
+          "type": "noauth"
+        },
         "method": "GET",
         "header": [],
         "url": {
@@ -106,11 +109,14 @@
     {
       "name": "PUT Update User",
       "request": {
+        "auth": {
+          "type": "noauth"
+        },
         "method": "PUT",
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"password\": \"admin1234\"\n}",
+          "raw": "{\n    \"password\": \"gabrielhackudao1235\"\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -118,13 +124,13 @@
           }
         },
         "url": {
-          "raw": "{{baseUrl}}/user/1",
+          "raw": "{{baseUrl}}/user/3",
           "host": [
             "{{baseUrl}}"
           ],
           "path": [
             "user",
-            "1"
+            "3"
           ]
         }
       },
@@ -139,13 +145,13 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "{{baseUrl}}/user/3",
+          "raw": "{{baseUrl}}/user/2",
           "host": [
             "{{baseUrl}}"
           ],
           "path": [
             "user",
-            "3"
+            "2"
           ]
         }
       },
